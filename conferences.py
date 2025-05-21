@@ -15,7 +15,7 @@ for table in soup.find_all( class_='table' ):
             if len( td ) == 0:
                 continue
             link = 'https://paco.ua.pt/' + tr.find( 'a', href=True )['href']
-            print( "- **[%s](%s)**: %s (conclusão = %s)" % (td[1].text.strip(), link, td[2].text.strip(), td[3].text.strip()) )
+            print( "- **[%s](%s)**: %s (data = %s)" % (td[1].text.strip(), link, td[2].text.strip(), td[3].text.strip()) )
 
     elif th[1].text.strip()[0:2] == 'Ti':
         print( '\n## Conferências\n' )
