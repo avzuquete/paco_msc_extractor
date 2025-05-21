@@ -3,8 +3,8 @@ Tools to extract students applications into a single MD or HTML file
 
 ## Instructions
 
-1. Access the applications page and log in.
-2. Extract the session cookie to a file (file cookie file example). You can use the browser inspecor, they trace network accesses, then pick one to paco.ua.pt, then get the cookie line from the raw headers.
+1. Go to the applications' page and log in.
+2. Extract the session cookie to a file (check the cookie file example). You can use the browser inspector, trace network accesses, access one page of the applications, select one HTTP access to paco.ua.pt, then get the cookie line from the raw headers.
 3. Get the Excel file will all the applicants, copy their number and store in one file, one number per line.
 4. Use the headers file provided.
 5. Run the command `extract.sh cookie_file headers_file numbers_file`. This creates one directory per student number, with one file per information page in Paco.
