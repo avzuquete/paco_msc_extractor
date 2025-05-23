@@ -39,5 +39,7 @@ for number in `cat $numbers`; do
     decompress languages
     curl -L -H @headers https://paco.ua.pt/Candidaturas/Volunteering/$number -o data.zip
     decompress volunteering
+    curl -L -H @headers https://paco.ua.pt/Candidaturas/Attachment/$number -o data.zip
+    decompress attachment
     cd ..
 done
