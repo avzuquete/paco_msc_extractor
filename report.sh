@@ -23,3 +23,5 @@ echo
 python3 $bindir/languages.py < $number/languages
 echo
 python3 $bindir/volunteering.py < $number/volunteering
+echo
+python3 $bindir/attachments.py < $number/attachment
