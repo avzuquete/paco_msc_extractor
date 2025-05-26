@@ -13,7 +13,7 @@ numbers=$3
 
 decompress()
 {
-    zcat data.zip > $1
+    zcat < data.zip > $1
     rm data.zip
 }
 
