@@ -15,11 +15,13 @@ This creates one directory per student number, with one file per information pag
 
 There are some Python3 scripts, which require the modules BeautifulSoup and markdown.
 
-Python modules can be installed in different ways, both using generic OS packages (e.g. in Linux) or using Python's modules installed via pip3.
-When using Python's modules you can also use a virtual environment to avoid adding more packages to your OS.
+Python modules can be installed in different ways, both using generic OS packages (e.g. in Linux) or using Python's modules installed via pip.
+When using Python's modules you can also use a virtual environment to avoid adding more packages to your OS or to your account directory.
 
 In Linux the relevant packages are **python3-bs4** or **python3-beautifulsoup4** (for BeautifulSoup) and **python3-markdown**.
 Python's modules are **beautifullsoup4** and **markdown**.
+
+For installing the required modules with pip use the provided requirements.txt file and run `pip install -r requirements.txt` 
 
 ## Aditional information
 
