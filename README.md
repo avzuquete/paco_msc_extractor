@@ -9,7 +9,7 @@ Tools to extract students applications into a single MD or HTML file
 4. Run the command `extract.sh cookie_file headers numbers_file`. (note: use the headers file provided).
 This creates one directory per student number, with one file per information page in Paco.
 5. Run the command reports.sh to create a Markdown file with the information of all the stdents, ordered by their name (as in Paco). Redirect output to a file, for example `reports.sh > out.md`.
-6. Run the comamnd md2html to create an HTML file from the Markdown one. Redirect input output, for example,`md2html < out.md > out.html`.
+6. Run the comamnd md2html to create an HTML file from the Markdown one. Redirect input/output, for example,`md2html < out.md > out.html`.
 
 ## Requirements
 
